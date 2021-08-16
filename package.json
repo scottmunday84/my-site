@@ -1,0 +1,36 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "dependencies": {
+        "3.0.0": "^3.0.0",
+        "core-js": "^3.6.5",
+        "vue": "^3.0.0"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.9.3",
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "@vue/compiler-sfc": "^3.1.5",
+        "axios": "^0.21",
+        "babel-eslint": "^10.1.0",
+        "bootstrap": "^5.1.0",
+        "eslint": "^6.7.2",
+        "jquery": "^3.6.0",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.37.5",
+        "sass-loader": "^12.1.0",
+        "vue-loader": "^16.5.0"
+    }
+}
