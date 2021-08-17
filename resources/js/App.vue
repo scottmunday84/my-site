@@ -1,11 +1,13 @@
 <template>
     <About />
     <Skills />
+    <Copyright />
 </template>
 
 <script>
 import About from './components/About.vue';
 import Skills from './components/Skills.vue';
+import Copyright from './components/Copyright.vue';
 
 export default {
   name: 'App',

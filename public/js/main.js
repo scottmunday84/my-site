@@ -17157,6 +17157,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _components_About_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/About.vue */ "./resources/js/components/About.vue");
 /* harmony import */ var _components_Skills_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Skills.vue */ "./resources/js/components/Skills.vue");
+/* harmony import */ var _components_Copyright_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Copyright.vue */ "./resources/js/components/Copyright.vue");
+
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -17179,7 +17181,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  computed: {
+    contactLink: function contactLink() {
+      var emailAddressDomain = 'sitesbymunday.com';
+      var emailAddress = "support@".concat(emailAddressDomain);
+      return "mailto:".concat(emailAddress);
+    }
+  }
+});
 
 /***/ }),
 
@@ -17251,7 +17261,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   var _component_Skills = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Skills");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_About), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Skills)], 64
+  var _component_Copyright = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Copyright");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_About), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Skills), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Copyright)], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -17274,17 +17286,40 @@ var _hoisted_1 = {
   "class": "container"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, "About the TechArtist", -1
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, "About Me", -1
 /* HOISTED */
 );
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " I am a software developer with a passion for all technology. I have 20+ years of experience on multiple programming languages, databases, and practices. ", -1
-/* HOISTED */
-);
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" I am a software developer with a passion for all technology. With 20+ years of experience on multiple programming languages, databases, and practices, I've seen my share of work, but always remained humble. IT can be difficult, and I help to coach my clients through their best options. Let me help develop your IT software solutions at a reasonable price. Contact me ");
 
-var _hoisted_4 = [_hoisted_2, _hoisted_3];
+var _hoisted_4 = ["href"];
+
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" for a quote! ");
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_4);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+    href: $options.contactLink
+  }, "here", 8
+  /* PROPS */
+  , _hoisted_4), _hoisted_5])]);
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??ref--5-0!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ref--0-0!./resources/js/components/Copyright.vue?vue&type=template&id=04aa3b28":
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??ref--5-0!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ref--0-0!./resources/js/components/Copyright.vue?vue&type=template&id=04aa3b28 ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+function render(_ctx, _cache) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", null, "© 2021 Sites by Munday LLC");
 }
 
 /***/ }),
@@ -17356,7 +17391,7 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"row g-4 py-5 row-cols-1 row-cols-lg-3\"><div class=\"feature col\"><h2>Design</h2><p>Whether architecting new applications or improving upon what you already have, I am here to help to design a stable, maintainable system for years to come.</p></div><div class=\"feature col\"><h2>Develop</h2><p>I practice clean code.</p></div><div class=\"feature col\"><h2>Maintain</h2><p>Even computers need a little oil.</p></div></div><div class=\"row row-cols-1 row-cols-lg-3\"><div class=\"feature col\"><h2>CI/CD</h2><p>You need help integrating your applications into your Software Development Lifecycle (SDLC)?</p></div><div class=\"feature col\"><h2>Data</h2><p>Even computers need a little oil.</p></div><div class=\"feature col\"><h2>Training</h2><p>Can teach how to IT.</p></div></div>", 2);
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"row g-4 py-5 row-cols-1 row-cols-lg-3\"><div class=\"feature col\"><h2>Design</h2><p>Whether architecting new applications or improving upon what you already have, I am here to help to design a stable, modern, and maintainable system that&#39;ll last for years to come.</p></div><div class=\"feature col\"><h2>Develop</h2><p>I practice clean code, SOLID, and TDD. You can be assured that all code developed for your application will be robust and secure.</p></div><div class=\"feature col\"><h2>Maintain</h2><p>Even computers need a little oil. If you have legacy code but no one understands it, I can help make sense of your old software and add those delayed, needed features.</p></div></div><div class=\"row row-cols-1 row-cols-lg-3\"><div class=\"feature col\"><h2>DevOps</h2><p>DevOps is a concept more than a practice. Every company is different and I can help understand your business and develop your next automated SDLC workflow to get your projects back on track.</p></div><div class=\"feature col\"><h2>Data</h2><p>You can&#39;t have a useful application without a database supporting it. I know many different DB management systems and can use your big data appropriately. Whether integrating a database or building a new one, no database is too difficult.</p></div><div class=\"feature col\"><h2>Training</h2><p>IT is hard. Let me help train your staff on a new piece of software, a new process, or Agile development.</p></div></div>", 2);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_skill_carousel = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("skill-carousel");
@@ -17903,6 +17938,29 @@ _About_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.__file =
 
 /***/ }),
 
+/***/ "./resources/js/components/Copyright.vue":
+/*!***********************************************!*\
+  !*** ./resources/js/components/Copyright.vue ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Copyright_vue_vue_type_template_id_04aa3b28__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Copyright.vue?vue&type=template&id=04aa3b28 */ "./resources/js/components/Copyright.vue?vue&type=template&id=04aa3b28");
+
+const script = {}
+script.render = _Copyright_vue_vue_type_template_id_04aa3b28__WEBPACK_IMPORTED_MODULE_0__.render
+/* hot reload */
+if (false) {}
+
+script.__file = "resources/js/components/Copyright.vue"
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (script);
+
+/***/ }),
+
 /***/ "./resources/js/components/SkillCarousel.vue":
 /*!***************************************************!*\
   !*** ./resources/js/components/SkillCarousel.vue ***!
@@ -18042,6 +18100,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_ref_5_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ref_0_0_About_vue_vue_type_template_id_fb05e49c__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_5_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ref_0_0_About_vue_vue_type_template_id_fb05e49c__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??ref--5-0!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ref--0-0!./About.vue?vue&type=template&id=fb05e49c */ "./node_modules/babel-loader/lib/index.js??ref--5-0!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ref--0-0!./resources/js/components/About.vue?vue&type=template&id=fb05e49c");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Copyright.vue?vue&type=template&id=04aa3b28":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/Copyright.vue?vue&type=template&id=04aa3b28 ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_ref_5_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ref_0_0_Copyright_vue_vue_type_template_id_04aa3b28__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_5_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ref_0_0_Copyright_vue_vue_type_template_id_04aa3b28__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??ref--5-0!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ref--0-0!./Copyright.vue?vue&type=template&id=04aa3b28 */ "./node_modules/babel-loader/lib/index.js??ref--5-0!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ref--0-0!./resources/js/components/Copyright.vue?vue&type=template&id=04aa3b28");
 
 
 /***/ }),
