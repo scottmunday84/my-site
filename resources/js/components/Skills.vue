@@ -1,6 +1,6 @@
 <template>
   <b-container>
-      <b-row class="g-4 py-5 row-cols-1 row-cols-lg-3">
+      <b-row class="g-4 py-4 row-cols-1 row-cols-sm-1 row-cols-lg-3">
           <b-col class="feature">
               <h2>Design</h2>
               <p>Whether architecting new applications or improving upon what you already have, I am here to help to
@@ -17,7 +17,7 @@
                   make sense of your old software and add those delayed, needed features.</p>
           </b-col>
       </b-row>
-      <b-row class="row-cols-1 row-cols-lg-3">
+      <b-row class="g-4 py-lg-4 row-cols-1 row-cols-sm-1 row-cols-lg-3">
           <b-col class="feature">
               <h2>DevOps</h2>
               <p>DevOps is a concept more than a practice. Every company is different and I can help understand your

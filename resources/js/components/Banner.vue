@@ -7,17 +7,14 @@
                 <h1>your</h1>
             </b-row>
             <b-row class="console py-2">
-                <b-col class="col-3">
-                    root&gt;
-                </b-col>
-                <b-col class="col-9">
+                <b-col>
                     <banner-carousel />
                 </b-col>
             </b-row>
             <b-row>
                 <h1>Nerd.</h1>
             </b-row>
-            <b-row class="pt-5">
+            <b-row class="pt-3">
                 <img :src="manAtDesk" />
             </b-row>
         </b-row>
@@ -26,7 +23,7 @@
 
 <script>
 import BannerCarousel from './BannerCarousel';
-import manAtDesk from './man-at-desk.png';
+import manAtDesk from './man-at-desk.svg';
 
 export default {
     components: {

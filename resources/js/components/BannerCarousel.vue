@@ -1,5 +1,7 @@
 <template>
-    <div>{{currentSkill}}</div>
+    <div>
+        root&gt;<span>{{currentSkill}}</span>
+    </div>
 </template>
 <script>
 export default {
@@ -20,7 +22,7 @@ export default {
             'Python',
             'Pandas',
             'C#',
-            'Entity Framework',
+            'EF',
             'ASP.NET',
             '.NET',
             'C++',
@@ -55,7 +57,7 @@ export default {
             'AOP',
             'OOP',
             'SOLID',
-            'microservice',
+            'microservices',
             'Agile'
         ]
     }),
