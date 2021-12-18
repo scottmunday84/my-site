@@ -1,0 +1,20 @@
+$body-bg: #040404;
+$body-color: #efefef;
+$font-size-base: 0.8rem;
+$sidebar-color: #e46a68;
+$footer-color: #6e6e6e;
+
+.sidebar {
+    background-color: $sidebar-color;
+}
+
+footer {
+    color: $footer-color;
+}
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../../node_modules/bootstrap-vue-3/src/styles/styles';
+
+.container-fluid {
+    height: 100vh;
+}

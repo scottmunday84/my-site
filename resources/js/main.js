@@ -1,4 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import BootstrapVue3 from "bootstrap-vue-3";
 
-createApp(App).mount('#app')
+import './app.scss';
+
+let app = createApp(App);
+app.use(BootstrapVue3);
+app.mount('#app')

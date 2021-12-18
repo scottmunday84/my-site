@@ -1,23 +1,17 @@
 <template>
-    <div class="container">
-        <h2>About Me</h2>
-        <p>
-            I am a software developer with a passion for all technology. With 20+ years of experience on multiple
-            programming languages, databases, and practices, I've seen my share of work, but always remained humble. IT
-            can be difficult, and I help to coach my clients through their best options. Let me help develop your IT
-            software solutions at a reasonable price. Contact me <a :href="contactLink">here</a> for a quote!
-        </p>
-    </div>
+    <b-container>
+        <b-row>
+            <h1 class="mb-3">About Me</h1>
+            <div class="p-3">
+                I am a software developer with a passion for technology. With over 20 years in software,
+                I've seen my fair share of work. I understand that IT can be difficult, so I help my clients navigate
+                their best options. Let me help develop your next software at a reasonable price. Contact me for a
+                free quote!
+            </div>
+        </b-row>
+    </b-container>
 </template>
 <script>
 export default {
-    computed: {
-        contactLink() {
-            let emailAddressDomain = 'sitesbymunday.com';
-            let emailAddress = `support@${emailAddressDomain}`;
-
-            return `mailto:${emailAddress}`;
-        }
-    }
 };
 </script>

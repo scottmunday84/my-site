@@ -16,5 +16,4 @@ mix
     .alias({
         '@': path.join(__dirname, 'resources/js')
     })
-    .sass('resources/sass/app.sass', 'public/css')
     .js('resources/js/main.js', 'public/js').vue({version: 3});
