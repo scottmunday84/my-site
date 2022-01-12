@@ -3,7 +3,7 @@
       <b-row class="g-4 py-4 row-cols-1 row-cols-sm-1 row-cols-lg-3">
           <b-col class="feature">
               <h2>Design</h2>
-              <p>Whether architecting new applications or improving upon what you already have, I am here to help to
+              <p>Whether architecting new applications or improving upon what you already have, I am here to help
                   design a stable, modern, and maintainable system that'll last for years to come.</p>
           </b-col>
           <b-col class="feature">
@@ -14,7 +14,7 @@
           <b-col class="feature">
               <h2>Maintain</h2>
               <p>Even computers need a little oil. If you have legacy code but no one understands it, I can help
-                  make sense of your old software and add those delayed, needed features.</p>
+                  make sense of your old software.</p>
           </b-col>
       </b-row>
       <b-row class="g-4 py-lg-4 row-cols-1 row-cols-sm-1 row-cols-lg-3">
@@ -32,7 +32,7 @@
           <b-col class="feature">
               <h2>Training</h2>
               <p>IT is hard. Learning IT is harder. Let me help train your staff on a new piece of software, a new
-                  process, or Agile development.</p>
+                  process, or anything tech.</p>
           </b-col>
       </b-row>
   </b-container>

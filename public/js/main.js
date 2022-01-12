@@ -18569,7 +18569,7 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Whether architecting new applications or improving upon what you already have, I am here to help to design a stable, modern, and maintainable system that'll last for years to come.", -1
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Whether architecting new applications or improving upon what you already have, I am here to help design a stable, modern, and maintainable system that'll last for years to come.", -1
 /* HOISTED */
 );
 
@@ -18585,7 +18585,7 @@ var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Even computers need a little oil. If you have legacy code but no one understands it, I can help make sense of your old software and add those delayed, needed features.", -1
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Even computers need a little oil. If you have legacy code but no one understands it, I can help make sense of your old software.", -1
 /* HOISTED */
 );
 
@@ -18609,7 +18609,7 @@ var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElement
 /* HOISTED */
 );
 
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "IT is hard. Learning IT is harder. Let me help train your staff on a new piece of software, a new process, or Agile development.", -1
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "IT is hard. Learning IT is harder. Let me help train your staff on a new piece of software, a new process, or anything tech.", -1
 /* HOISTED */
 );
 
@@ -18720,7 +18720,9 @@ __webpack_require__.r(__webpack_exports__);
     contactLink: function contactLink() {
       var emailAddressDomain = 'sitesbymunday.com';
       var emailAddress = "support@".concat(emailAddressDomain);
-      return "mailto:".concat(emailAddress);
+      var encodedSubject = encodeURIComponent('NOTICE: Quote Request');
+      var encodedBody = encodeURIComponent('Replace me with a description of what I can help you with.');
+      return "mailto:".concat(emailAddress, "?subject=").concat(encodedSubject, "&body=").concat(encodedBody);
     }
   }
 });
