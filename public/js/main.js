@@ -18540,7 +18540,7 @@ var _hoisted_1 = {
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "text-center p-3"
-}, " © 2021-2022 Sites by Munday, LLC. All rights reserved. ", -1
+}, " © 2022 Sites by Munday LLC. All rights reserved. ", -1
 /* HOISTED */
 );
 
