@@ -37,7 +37,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 .container {
     text-transform: uppercase;
     text-align: left;
@@ -45,7 +45,7 @@ export default {
     .console {
         color: #6e6e6e;
         font-family: monospace;
-        font-size: 32px;
+        font-size: 28px;
         text-transform: none;
     }
 }

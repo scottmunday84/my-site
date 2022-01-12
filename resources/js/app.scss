@@ -3,9 +3,36 @@ $body-color: #efefef;
 $font-size-base: 0.8rem;
 $sidebar-color: #e46a68;
 $footer-color: #6e6e6e;
+$link-color: $body-color;
+$link-hover-color: #b33;
 
 .sidebar {
+    position: fixed;
     background-color: $sidebar-color;
+    height: 100vh;
+    font-size: 32pt;
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+
+        a {
+            color: $link-color;
+
+            &:hover {
+                color: $link-hover-color;
+            }
+
+            svg {
+                fill: $link-color;
+            }
+        }
+    }
 }
 
 footer {
